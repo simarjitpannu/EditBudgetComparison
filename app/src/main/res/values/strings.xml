@@ -12,4 +12,11 @@
     <string name="questionnair">Questionnair</string>
     <string name="current_loc">Current Location</string>
     <string name="yearly_salary">Yearly Salary</string>
+    <string name="address">Address</string>
+    <string name="salary">Salary</string>
+    <string name="set_your_bu">Set your budget priorities</string>
+    <string name="housing">Housing</string>
+    <string name="utilities">Utilities</string>
+    <string name="travel">Travel</string>
+    <string name="food">Food</string>
 </resources>
