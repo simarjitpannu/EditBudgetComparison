@@ -45,4 +45,30 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <TextView
+        android:id="@+id/current_loc"
+        android:layout_width="213dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="116dp"
+        android:gravity="top"
+        android:text="@string/current_loc"
+        android:textAppearance="@style/yearly_salary"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/yearly_sala"
+        android:layout_width="175dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="36dp"
+        android:gravity="top"
+        android:text="@string/yearly_salary"
+        android:textAppearance="@style/yearly_salary"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
