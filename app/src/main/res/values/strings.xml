@@ -6,4 +6,7 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="existing_account">Already have an account?</string>
     <string name="sign_in">Sign in</string>
+    <string name="login_header">Login</string>
+    <string name="sign_up">Don\'t have an account yet?</string>
+    <string name="login">Login</string>
 </resources>
