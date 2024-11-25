@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LivingCostsScreen">
+
+    <FrameLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/seafoam"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/costOfLiving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cost of Living"
+            android:textColor="@color/light_green"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/compareCities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compare Cities"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/topBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:id="@+id/searchCity"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:hint="Add city to compare"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:inputType="text"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/compareCities"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/categories"
+        android:layout_width="95dp"
+        android:layout_height="371dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="280dp"
+        android:text="Rent (1 bed 1 bath)\n\nElectricity\n\nHeat\n\nWater\n\nGroceries\n\nEating out\n\nPublic transport\n\nFuel\n\nGym membership\n\nTaxes"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/city1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Madison, WI"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <FrameLayout
+        android:id="@+id/cityFrame1"
+        android:layout_width="119dp"
+        android:layout_height="387dp"
+        android:background="@color/light_gray"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="270dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="XX,XXX" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="107dp"
+        android:layout_height="382dp"
+        android:background="@drawable/city_button"
+        android:padding="10dp"
+        android:text="+"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="272dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
