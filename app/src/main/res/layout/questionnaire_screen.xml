@@ -76,8 +76,22 @@
         android:layout_height="81dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="204dp"
         android:background="@drawable/line_19"
-        tools:layout_editor_absoluteX="204dp"
-        tools:layout_editor_absoluteY="75dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frame_3" />
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="138dp"
+        android:layout_height="27.25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/rectangle_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/current_loc" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
