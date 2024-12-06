@@ -9,7 +9,7 @@
     <string name="login_header">Login</string>
     <string name="sign_up">Don\'t have an account yet?</string>
     <string name="login">Login</string>
-    <string name="questionnair">Questionnair</string>
+    <string name="questionnaire">Questionnaire</string>
     <string name="current_loc">Current Location</string>
     <string name="yearly_salary">Yearly Salary</string>
     <string name="address">Address</string>
@@ -19,4 +19,8 @@
     <string name="utilities">Utilities</string>
     <string name="travel">Travel</string>
     <string name="food">Food</string>
+    <string name="submit">Submit</string>
+    <string name="min">Min</string>
+    <string name="max">Max</string>
+
 </resources>
