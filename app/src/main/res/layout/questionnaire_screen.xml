@@ -57,4 +57,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/rectangle_1" />
 
+    <TextView
+        android:id="@+id/yearly_salary"
+        android:layout_width="119dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="48dp"
+        android:gravity="top"
+        android:text="@string/yearly_salary"
+        android:textAppearance="@style/yearly_salary"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frame_3" />
+
+    <View
+        android:id="@+id/line_19"
+        android:layout_width="3dp"
+        android:layout_height="81dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/line_19"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="75dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
