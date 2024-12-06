@@ -161,5 +161,16 @@
         app:layout_constraintStart_toStartOf="@+id/rectangle_"
         app:layout_constraintTop_toTopOf="@+id/rectangle_" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/submit"
+        android:textAppearance="@style/submit"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -55,4 +55,8 @@
         <item name="android:textSize">24sp</item>
         <item name="android:textColor">#E9EFEC</item>
     </style>
+    <style name="submit">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
 </resources>
