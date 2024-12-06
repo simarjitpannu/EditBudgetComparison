@@ -20,4 +20,6 @@
     <string name="travel">Travel</string>
     <string name="food">Food</string>
     <string name="submit">Submit</string>
+    <string name="min">Min</string>
+    <string name="max">Max</string>
 </resources>
