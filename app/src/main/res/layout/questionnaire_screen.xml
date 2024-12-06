@@ -133,5 +133,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/line_20" />
 
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="49dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:alpha="0.5"
+        android:gravity="top"
+        android:text="@string/address"
+        android:textAppearance="@style/address"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_2"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_2" />
+
+    <TextView
+        android:id="@+id/salary"
+        android:layout_width="42dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:alpha="0.5"
+        android:gravity="top"
+        android:text="@string/salary"
+        android:textAppearance="@style/salary"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
