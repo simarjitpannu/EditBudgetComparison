@@ -189,7 +189,7 @@
         android:layout_height="27.25dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="212dp"
+        android:layout_marginTop="216dp"
         android:layout_marginEnd="108dp"
         android:background="@drawable/rectangle_3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -201,7 +201,7 @@
         android:layout_height="27.25dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="212dp"
+        android:layout_marginTop="216dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/rectangle_3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -213,7 +213,7 @@
         android:layout_height="27.25dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="260dp"
+        android:layout_marginTop="264dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/rectangle_3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -225,20 +225,8 @@
         android:layout_height="27.25dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="308dp"
+        android:layout_marginTop="312dp"
         android:layout_marginEnd="16dp"
-        android:background="@drawable/rectangle_3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/line_20" />
-
-    <View
-        android:id="@+id/rectangle_13"
-        android:layout_width="75dp"
-        android:layout_height="27.25dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="212dp"
-        android:layout_marginEnd="108dp"
         android:background="@drawable/rectangle_3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/line_20" />
@@ -249,7 +237,7 @@
         android:layout_height="27.25dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="260dp"
+        android:layout_marginTop="264dp"
         android:layout_marginEnd="108dp"
         android:background="@drawable/rectangle_3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -261,7 +249,7 @@
         android:layout_height="27.25dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="308dp"
+        android:layout_marginTop="312dp"
         android:layout_marginEnd="108dp"
         android:background="@drawable/rectangle_3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -273,7 +261,7 @@
         android:layout_height="27.25dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="364dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/rectangle_3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -285,7 +273,7 @@
         android:layout_height="27.25dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="364dp"
         android:layout_marginEnd="108dp"
         android:background="@drawable/rectangle_3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -362,7 +350,7 @@
         android:alpha="0.5"
         android:gravity="top"
         android:text="@string/min"
-        android:textAppearance="@style/min"
+        android:textAppearance="@style/max"
         app:layout_constraintStart_toStartOf="@+id/rectangle_4"
         app:layout_constraintTop_toTopOf="@+id/rectangle_4" />
 
@@ -377,7 +365,7 @@
         android:alpha="0.5"
         android:gravity="top"
         android:text="@string/min"
-        android:textAppearance="@style/min"
+        android:textAppearance="@style/max"
         app:layout_constraintStart_toStartOf="@+id/rectangle_6"
         app:layout_constraintTop_toTopOf="@+id/rectangle_6" />
 
@@ -392,7 +380,7 @@
         android:alpha="0.5"
         android:gravity="top"
         android:text="@string/min"
-        android:textAppearance="@style/min"
+        android:textAppearance="@style/max"
         app:layout_constraintStart_toStartOf="@+id/rectangle_9"
         app:layout_constraintTop_toTopOf="@+id/rectangle_9" />
 
@@ -407,7 +395,7 @@
         android:alpha="0.5"
         android:gravity="top"
         android:text="@string/min"
-        android:textAppearance="@style/min"
+        android:textAppearance="@style/max"
         app:layout_constraintStart_toStartOf="@+id/rectangle_11"
         app:layout_constraintTop_toTopOf="@+id/rectangle_11" />
 
@@ -422,7 +410,7 @@
         android:alpha="0.5"
         android:gravity="top"
         android:text="@string/min"
-        android:textAppearance="@style/min"
+        android:textAppearance="@style/max"
         app:layout_constraintStart_toStartOf="@+id/rectangle_19"
         app:layout_constraintTop_toTopOf="@+id/rectangle_19" />
 
@@ -437,7 +425,7 @@
         android:alpha="0.5"
         android:gravity="top"
         android:text="@string/min"
-        android:textAppearance="@style/min"
+        android:textAppearance="@style/max"
         app:layout_constraintStart_toStartOf="@+id/rectangle_21"
         app:layout_constraintTop_toTopOf="@+id/rectangle_21" />
 
@@ -452,7 +440,7 @@
         android:alpha="0.5"
         android:gravity="top"
         android:text="@string/min"
-        android:textAppearance="@style/min"
+        android:textAppearance="@style/max"
         app:layout_constraintStart_toStartOf="@+id/rectangle_24"
         app:layout_constraintTop_toTopOf="@+id/rectangle_24" />
 
@@ -560,5 +548,96 @@
         android:textAppearance="@style/max"
         app:layout_constraintStart_toStartOf="@+id/rectangle_20"
         app:layout_constraintTop_toTopOf="@+id/rectangle_20" />
+
+    <View
+        android:id="@+id/rectangle_10"
+        android:layout_width="154dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/rectangle_4"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle_4"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/set_your_bu" />
+
+    <View
+        android:id="@+id/rectangle_25"
+        android:layout_width="154dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/rectangle_4"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle_6"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_10" />
+
+    <View
+        android:id="@+id/rectangle_26"
+        android:layout_width="154dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/rectangle_4"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle_9"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_25" />
+
+    <View
+        android:id="@+id/rectangle_27"
+        android:layout_width="154dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/rectangle_4"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle_9"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_26" />
+
+    <View
+        android:id="@+id/rectangle_28"
+        android:layout_width="154dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/rectangle_4"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle_9"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_27" />
+
+    <View
+        android:id="@+id/rectangle_29"
+        android:layout_width="154dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/rectangle_4"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle_9"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_28" />
+
+    <View
+        android:id="@+id/rectangle_43"
+        android:layout_width="154dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/rectangle_4"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle_9"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_29" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
