@@ -14,21 +14,7 @@
         android:background="#6A9C89"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" >
-
-        <TextView
-            android:id="@+id/questionnaire"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginStart="128dp"
-            android:layout_marginEnd="128dp"
-            android:gravity="top"
-            android:text="@string/questionnaire"
-            android:textStyle="bold"
-            android:textAppearance="@style/questionnaire" />
-    </RelativeLayout>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/rectangle_1"
