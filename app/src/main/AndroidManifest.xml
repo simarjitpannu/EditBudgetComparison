@@ -12,18 +12,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DummyBudget"
         tools:targetApi="31">
+
         <activity
-            android:name=".RegisterScreen"
-            android:exported="true" />
-        <activity
-            android:name=".LivingCostsScreen"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+        <activity
+            android:name=".RegisterScreen"
+            android:exported="true" />
+
+        <activity
+            android:name=".LivingCostsScreen"
+            android:exported="true" />
+
+        <activity
+            android:name=".Questionnairescreen"
+            android:exported="true" />
+
+    </application>
 </manifest>
